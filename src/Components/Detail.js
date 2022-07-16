@@ -28,11 +28,11 @@ useEffect(() => {
          iditem.map((product,index)=>{
                return(
                 <div className='order_about flex'>
-                  <p>Sifaris sirasi <strong>{product.id}</strong></p>                  
-                  <p>Xidmet gosteren emekdasimiz <strong>{product.servant}</strong></p>                  
-                  <p> Sifarisin masasi <strong>{product.table}</strong></p>                  
-                  <p> Sifarisin meblegi <strong>{product.totals} AZN</strong></p>                  
-                  <p>Yemek<strong>{product.meal}</strong></p>                                  
+                  <p>Sifaris sirasi <strong>{ product.id}</strong></p>                  
+                  <p>Xidmet gosteren emekdasimiz <strong>{ product.servant}</strong></p>                  
+                  <p> Sifarisin masasi <strong>{ product.table}</strong></p>                  
+                  <p> Sifarisin meblegi <strong>{ product.totals} AZN</strong></p>                  
+                  <p>Yemek <strong>{ product.meal }</strong></p>                                  
                 </div>
                )
          })
